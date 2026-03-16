@@ -183,7 +183,7 @@ ubuntu-setup/
 Clone the repository:
 
 ```bash
-git clone https://github.com/gbarcenasjr/ubuntu-setup.git
+git clone https://github.com/gbarcenasjr/Personal-Ubuntu-Setup-Script.git
 cd ubuntu-setup
 ```
 
