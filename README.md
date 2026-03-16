@@ -184,7 +184,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/gbarcenasjr/Personal-Ubuntu-Setup-Script.git
-cd ubuntu-setup
+cd Personal-Ubuntu-Setup-Script
 ```
 
 Make scripts executable:
