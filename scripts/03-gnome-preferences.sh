@@ -6,6 +6,9 @@ echo "[1/4] Applying GNOME appearance settings..."
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark' || true
 gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark' || true
 gsettings set org.gnome.desktop.session idle-delay 900 || true
+sudo cp ~/.config/monitors.xml /var/lib/gdm3/.config/
+sudo chown gdm:gdm /var/lib/gdm3/.config/monitors.xml
+
 
 echo "[2/4] Disabling SSH key agent autostart..."
 mkdir -p "$HOME/.config/autostart"
