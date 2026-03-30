@@ -159,7 +159,7 @@ Screen idle timeout: 15 minutes
 Startup behavior:
 
 - disables GNOME SSH key agent auto-start
-
+- copies user's display settings to the login (Boot) display settings
 ---
 
 # Repository Structure
